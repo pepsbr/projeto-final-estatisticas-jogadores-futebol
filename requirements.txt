@@ -1,0 +1,9 @@
+kagglehub[pandas-datasets]
+matplotlib
+numpy
+pandas
+plotly
+scipy
+seaborn
+scikit-learn
+jupyter
