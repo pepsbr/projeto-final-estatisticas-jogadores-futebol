@@ -1,4 +1,4 @@
-# Projeto Final — Estatística Aplicada a Jogadores de Futebol
+﻿# Projeto Final — Estatística Aplicada a Jogadores de Futebol
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![SciPy](https://img.shields.io/badge/SciPy-Statistics-8CAAE6?logo=scipy&logoColor=white)
@@ -32,7 +32,7 @@ O estudo aplica conceitos fundamentais e avançados de probabilidade, variáveis
 
 ## 1. Visão Geral e Fluxo Analítico
 
-O notebook [`Projeto Final_Equipe 4.ipynb`](./Projeto%20Final_Equipe%204.ipynb) estrutura a investigação estatística em sete módulos complementares:
+O notebook [`Projeto_Final_Estatisticas_Jogadores_Futebol.ipynb`](./Projeto_Final_Estatisticas_Jogadores_Futebol.ipynb) estrutura a investigação estatística em sete módulos complementares:
 
 ```mermaid
 flowchart LR
@@ -168,7 +168,7 @@ Para uma amostra de $n = 100$ jogadores com média amostral $\bar{x} = 66{,}24$ 
 │   ├── idade_original.png
 │   ├── idade_standardscaler.png
 │   └── tlc_n1.png / tlc_n5.png / tlc_n30.png / tlc_n100.png
-├── Projeto Final_Equipe 4.ipynb                       # Notebook principal com todas as análises e códigos
+├── Projeto_Final_Estatisticas_Jogadores_Futebol.ipynb                       # Notebook principal com todas as análises e códigos
 ├── .gitignore                                         # Regras de exclusão para arquivos locais e credenciais
 ├── requirements.txt                                   # Dependências Python
 └── README.md                                          # Documentação detalhada do estudo
@@ -196,7 +196,7 @@ Recomendado: **Python 3.10** ou superior.
    ```
 4. Execute o Jupyter Notebook:
    ```bash
-   jupyter notebook "Projeto Final_Equipe 4.ipynb"
+   jupyter notebook Projeto_Final_Estatisticas_Jogadores_Futebol.ipynb
    ```
    > **Nota:** A primeira célula utiliza `kagglehub` para baixar automaticamente o dataset `data-liga-premiere` (`fifa_players.csv`).
 
